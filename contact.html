@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- link to font awesome for hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/912da39ca5.js"></script>
+  <title>GLASGOW KELVIN CAR'S</title>
+</head>
+
+<body class="bg-dark">
+  <header class="w3-display-container w3-text-white bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+        </div>
+        <div class="col-sm pt-2 pb-2">
+            <nav class="nav-pills ">
+                   
+                <a href="about.html"
+                  class="btn btn-primary w-25 float-right ml-1 float-right bg-dark border border-dark d-none d-lg-block d-xl-block">
+                  About </a>
+                <a href="contact.html"
+                  class="btn btn-primary w-25 float-right ml-1 bg-dark border border-dark d-none d-lg-block d-xl-block">Contact</a>
+                  <a href="index.html"
+                  class="btn btn-primary w-25 float-right ml-1 float-right bg-dark border border-dark d-none d-lg-block d-xl-block">
+                  Home </a>
+                </nav>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <nav class="nav-pills ">
+      <a href="index.html"   class="btn btn-primary btn-block float-right ml-1 float-right bg-dark border border-dark d-block d-lg-none d-xl-none "> Home </a>
+      <a href="about.html"   class="btn btn-primary btn-block float-right ml-1 float-right bg-dark border border-dark d-block d-lg-none d-xl-none "> About </a>
+      <a href="contact.html" class="btn btn-primary btn-block float-right ml-1 bg-dark border border-dark d-block d-lg-none d-xl-none">Contact</a>
+    </nav>
+
+   
+  </header>
+
+  
+  <main class="text-center bg-light pb-1">
+   <div class="text-dark bg-light" id="main">
+      <img src="img/seat-logo2.png" alt="logo" class="d-none d-lg-block d-xl-block" style="margin:auto">
+      <h3 class="text-center pb-3">  <strong> GKC The best hirer's car center</strong></h3>
+
+  </div>
+    <div class="card-body bg-light img-thumbnail">
+      <h1 class="fw-300"> Contact </h1>
+      <form class="text-center">
+        <fieldset>
+          <legend class="text-center">Personal Information</legend>
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" placeholder="Your name">
+
+          <label for="email">E-mail: </label>
+          <input type="email" id="email" placeholder="Your email" required>
+
+          <label for="telefono">Telephone:</label>
+          <input type="tel" id="telefono" placeholder="Your Telephone" required>
+
+          <label for="mensaje">Message: </label>
+          <textarea id="mensaje"></textarea>
+
+        </fieldset>
+
+
+        <fieldset>
+          <legend class="text-center">Property information</legend>
+          <label for="opciones">Sell or Buy</label>
+          <select id="opciones">
+            <option value="" disabled selected>-- Select --</option>
+            <option value="Compra">Buy</option>
+            <option value="Vende">Sell</option>
+          </select>
+
+          <label for="cantidad">Quantity:</label>
+          <input type="number" min="0" max="100" step="5">
+        </fieldset>
+    </div>
+
+    <fieldset>
+
+      <h4>Way of contact:</h4>
+
+      <div class="pb-3">
+        <label for="telefono">Telephone</label>
+        <input type="radio" name="contacto" value="telephone" id="telefono">
+
+        <label for="correo">E-mail</label>
+        <input type="radio" name="contacto" value="email" id="correo">
+      </div>
+
+      <p>If you chosed a date, chose date and time</p>
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha">
+
+      <label for="hora">Hour:</label>
+      <input type="time" id="hora" min="09:00" max="18:00">
+
+
+    </fieldset>
+
+    <input type="submit" value="Enviar" class="boton bg-dark text-light border-dark">
+
+    </form>
+  </main>
+  <div class="bg-dark">
+
+    <div class="row">
+      <div class="col-sm ml-3 mr-3 text-white">
+        <p class="text-center pt-4">New Cars
+          Mii Electric <br>
+          Ibiza<br>
+          Leon<br>
+          Leon Estate <br>
+
+        </p>
+      </div>
+
+      <div class="col-sm ml-3 mr-3 text-white">
+        <p class="text-center pt-4"> Arona <br>
+          Ateca <br>
+          Tarraco <br>
+          Alhambra <br></p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <footer class="bg-dark">
+    <hr style="border:0.5px solid white; margin: 0 10px 0 10px">
+
+
+
+    <img src="img/logo_seat.png" alt="logo">
+
+
+
+
+
+    <h6 class="text-center text-white font-family: 'Anton', sans-serif"> All rights reserved under
+      Copyleft license </h6>
+
+
+    <nav class="float-right nav-pills bg-dark">
+
+      <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+      <a href="#"><i class="fab fa-twitter text-white" v></i></a>
+      <a href="#"><i class="fab fa-pinterest text-white"></i></a>
+      <a href="#"><i class="fab fa-youtube text-white"></i></a>
+      <a href="#"><i class="fab fa-instagram text-white"></i></a>
+
+    </nav>
+
+    <script type="text/javascript" id="cookiebanner"
+      src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js" data-height="50px"
+      data-position="bottom" data-message="We use cookies to improve your browsing experience.">
+      </script>
+  </footer>
+</body>
+
+</html>
